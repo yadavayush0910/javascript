@@ -1,0 +1,64 @@
+let fullname="Ayush Yadav";
+console.log(fullname.length);
+let firstname="Ayush";
+console.log(firstname[0]);
+console.log(firstname[firstname.length-1]);
+let empty="";
+console.log(empty.length);
+let color="Red";
+if(color==="Yellow")
+{
+    console.log("wait");
+}
+else if(color==="Green")
+{
+    console.log("go");
+}
+else if(color==="Red")
+{
+    console.log("stop");
+}
+else
+{
+    console.log("Pata nahi");
+}
+console.log("Hello World");
+console.log("Ayush Yadav");
+let a1=5;
+let b=10;
+console.log("Sum is :",a1+b);
+console.log(`Sum is ${a1+b}  units`);
+let a=10;
+console.log(a++);
+console.log(++a);
+
+let AGE=12;
+ if(AGE>12)
+ {
+    console.log("you can vote");
+ }
+ else
+ {
+    console.log("You can't vote");
+ }
+let str='ayush';
+if((str[0]==='a') &&(str.length>3))
+{
+    console.log("Safe");
+
+}
+else
+{
+    console.log("Unsafe");
+}
+let num=12;
+if(-10)
+{
+    console.log("true");
+}
+else{
+    console.log("false");
+}
+// alert("something is wrong");
+console.error("this is a error message");
+console.warn("this is a warning alert");

@@ -1,0 +1,17 @@
+let nums=[2,4,1,5,6,2,7,8,9];
+let even=nums.filter((num)=>(num%2==0));
+console.log(even);
+// let el=nums.filter((el)=>{return (el<5)});
+let el=nums.filter((num)=>num<8);
+console.log(el);
+let ev=[2,4,6,9].every((el)=>el%2==0);
+console.log(ev);
+let red=[1,2,3,4,5].reduce((res,el)=>{console.log(res); return (res-el)});
+console.log(red);
+let str="AyushYadav";
+console.log(...str);
+let arr=[-11,2,32,4,53,543,6,7,8,9,90.0,3];
+console.log(...arr);
+console.log(Math.min(...arr));
+let newArr=[...arr];
+console.log(newArr);
